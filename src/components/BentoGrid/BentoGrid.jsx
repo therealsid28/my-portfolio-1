@@ -13,7 +13,7 @@ import Me from '../../assets/me.jpg';
 function BentoGrid() {
   return (
     <div className="grid gap-4 grid-cols-6">
-      <div className="w-full h-72 bg-neutral-800 p-8 col-span-4 rounded-2xl">
+      <div className="w-full h-72 bg-neutral-800 p-8 rounded-2xl md:col-span-6 lg:col-span-4">
         <div className="flex flex-col justify-between h-full">
           <p className="text-white">
             My name is Siddharth, and I am currently pursuing a degree in
@@ -36,7 +36,7 @@ function BentoGrid() {
           </p>
         </div>
       </div>
-      <div className="w-full h-72 bg-neutral-800 p-8 col-span-2 rounded-2xl">
+      <div className="w-full h-72 bg-neutral-800 p-8 col-span-2 rounded-2xl md:hidden lg:block">
         <div className="h-full w-full">
           <img
             src={Me}
